@@ -5,134 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quadro de Anúncios</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-           
-        }
-        body{
-            background-color: #555;
-            width: 100%;
-            display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-        }
-       .cabecalio{
-            width: 100%;
-            text-align: center;
-            overflow: hidden;
-
-            background-color: burlywood;
-        }
-
-        .campo {
-           background-color:aqua ;
-           width: 300px;
-           height: 460px;
-           margin: 25px;
-           border-radius: 20px;
-           overflow: hidden;
-           box-shadow: 0px 0px 0px rgba(0,0,0,0.7);
-
-            
-        }
-
-        .designacao{
-           background-color:chocolate;
-           width: 300px;
-           height: 460px;
-           margin: 25px;
-           border-radius: 20px;
-           overflow: hidden;
-           box-shadow: 0px 0px 0px rgba(0,0,0,0.7);
-
-        }
-        .limpeza{
-           background-color: blue;
-           width: 300px;
-           height: 460px;
-           margin: 25px;
-           border-radius: 20px;
-           overflow: hidden;
-           box-shadow: 0px 0px 0px rgba(0,0,0,0.7); 
-        }
-        .relatorios{
-           padding: 3px;
-           background-color: azure;
-           width: 300px;
-           height: 460px;
-           margin: 25px;
-           border-radius: 20px;
-           overflow: hidden;
-           box-shadow: 0px 0px 0px rgba(0,0,0,0.7);
-        }
-        .relatorios form{
-            width: 290px;
-            height:450px ;
-            margin: 10px;
-        }
-
-        .relatorios form input{
-            padding: 5px;
-        }
-        .relatorios form 1 input{
-            width:100%;
-            padding: 10px 0;
-            font-size: 16px;
-            color: #fff;
-            margin-bottom: 30px;
-            border: none;
-            border-bottom: 1px solid #fff;
-            outline: none;
-            background: transparent;
-
-        }
-        .relatorios .1 .label {
-                position: absolute;
-                top: 0;
-                left: 0;
-                padding: 10px 0;
-                font: size 16px;
-                color: #fff;
-                pointer-events: none;
-                transition: .5s;
-        }
-
-        .anuncios{
-           background-color: darkgray;
-           width: 300px;
-           height: 460px;
-           margin: 25px;
-           border-radius: 20px;
-           overflow: hidden;
-           box-shadow: 0px 0px 0px rgba(0,0,0,0.7);
-        }
-
-    </style>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <header class="cabecalio">
-        <h1>Congregação São Paulo</h1>
-        <h2>Quadro de Anuncios</h2>
-    </header>
+    <div class="cabecalio">
+        <header >
+            <h1>Congregação São Paulo</h1>
+            <h2>Quadro de Anuncios</h2>
+        </header>
+    </div>
 
-    <div class= "campo">
+    <div class= "card">
         <h2>Saida de Campo</h2>
+        <table>
+            <tr>
+              <td>Dia da Semana</td>
+              <td>Local de Saida</td>
+              <td>Dirigente</td>
+              <td>Hórario de Saida</td>
+            </tr>
+            <tr>
+              <td>Terca</td>
+              <td>Salão do Reino</td>
+              <td>Marcelo</td>
+              <td>8:30h</td>
+            </tr>
+            <tr>
+              <td>Quarta</td>
+              <td>Messias Miranda</td>
+              <td>Kelvin</td>
+              <td>8:30h</td>
+            </tr>
+            <tr>
+              <td>Quinta e Sexta</td>
+              <td>Jenerindo</td>
+              <td>Pedro Henrique</td>
+              <td>8:30h</td>
+            </tr>
+            <tr>
+              <td>Sabado</td>
+              <td>Walber</td>
+              <td>Faustino</td>
+              <td>8:30h</td>
+            </tr>
+            <tr>
+              <td>Domingo</td>
+              <td>Grupos</td>
+              <td>Messias Miranda</td>
+              <td>8:45h</td>
+            </tr>
+          </table>
+          
 
     </div>
 
-    <div class="designacao">
+    <div class="card">
         <h2>Designação</h2>
 
     </div>
 
-    <div class="limpeza">
+    <div class="card">
         <h2>Programacao de limpeza</h2>
 
     </div>
 
-    <div class="relatorios">
+    <div class="card">
 
         <form action="cadastro.js" method="post" autocomplete="off">
 

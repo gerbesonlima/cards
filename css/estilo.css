@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #555;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cabecalio{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+
+    background-color: burlywood;
+}
+
+.card {
+    
+   text-align: center;
+   background-color:rgb(93, 158, 158) ;
+   width: 100%;
+   height: 460px;
+   margin: 25px;
+   padding: 10px;
+   padding-bottom: 20px;
+   border-radius: 20px;
+   overflow: hidden;
+   box-shadow: 0px 0px 0px rgba(0,0,0,0.7);
+  
+}
+table {
+    
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+
+    border: 1px solid #070505;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #913d3d;
+    color: #472020;
+  }
+  
+  tr:nth-last-child(strong) {
+    background-color: #c23838;
+  }
+  
+
+
+.relatorios form{
+    width: 290px;
+    height:450px ;
+    margin: 10px;
+}
+
+.relatorios form input{
+    padding: 5px;
+}
+.relatorios form input{
+    width:100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+
+}
+.relatorios label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 0;
+        font: size 16px;
+        color: #fff;
+        pointer-events: none;
+        transition: .5s;
+}
+
+.anuncios{
+   background-color: darkgray;
+   width: 300px;
+   height: 460px;
+   margin: 25px;
+   border-radius: 20px;
+   overflow: hidden;
+   box-shadow: 0px 0px 0px rgba(0,0,0,0.7);
+}
